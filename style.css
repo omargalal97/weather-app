@@ -1,0 +1,55 @@
+.site{
+    background-color: #1e202b;
+    height: 95vh;
+    width: 100%;
+}
+.navi{
+    color: white;
+}
+
+.firstStyle{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    left: 10%;
+    /* background-color: #1e202b; */
+}
+
+#searchBar{
+    background-color: lightblue;
+    border-radius: 20px ;
+    
+    
+}
+
+.seachButton{
+     width: 70px;
+     height: 35px; 
+     margin-right: 40px;
+     margin-top: 20px;
+}
+.subscribe{
+    border-radius: 30px;
+}
+
+.shadow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    padding: 7px;
+    /* margin: auto; */
+}
+
+.social{
+    color: #009ad8;
+    
+}
+.parga{
+    color: white;
+    
+}
+
+.condition{
+    color: blue;
+}

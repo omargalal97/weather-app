@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="site">
+            
+                <nav class="navbar navbar-expand-lg  ">
+                    <div class="container">
+                      <img src="images/asset 0.png" alt="">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto ">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">News</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Live Cameras</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Photos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                          </li>
+                         
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="bar d-flex">
+                  <input id="searchBar" type="search" class="form-control mt-3 mb-3 p-2  w-75 m-auto " >
+                  <button  onclick="getCity()" class="btn btn-primary seachButton"> serach</button>
+                </div>
+
+                  <div class="imag mt-4">
+                    <img src="images/asset 4.png" alt="" class="w-100">
+
+                    
+
+                    <div id="cardss" class="contanier firstStyle ">
+                      <div class="row">
+                          <div class="col-md-4 mt-3 ">
+                              <div class="card bg-dark text-white text-center m-auto">
+                                  <h2 class="day "></h2>
+                                  <div class="location "></div>
+                                  <h3 class="temp bg-danger"></h3>
+                                  <p class="minTemp bg-info "></p>
+                                  <p class="condition "></p>
+                                  <img  class="image w-25 m-auto" >
+                                  <h4 >wind speed</h4>
+                                  <p class="wind bg-danger"></p>
+                                  <h4>Rain chance</h4>
+                                  <p class="chanceRain bg-danger"></p>
+                              </div>
+                          </div>
+
+                          <div class="col-md-4 mt-3">
+                            <div class="card bg-dark text-white text-center">
+                                <h2 class="day"></h2>
+                                <div class="location"></div>
+                                <h3 class="temp bg-danger"></h3>
+                                <p class="minTemp bg-info"></p>
+                                <p class="condition"></p>
+                                <img  class="image w-25 m-auto">
+                                <h4 >wind speed</h4>
+                                <p class="wind bg-danger"></p>
+                                <h4 >Rain chance</h4>
+                                <p class="chanceRain bg-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                          <div class="card bg-dark text-white text-center">
+                              <h2 class="day"></h2>
+                              <div class="location"></div>
+                              <h3 class="temp bg-danger"></h3>
+
+                              <h3 class="minTemp bg-info"></h3>
+                              <p class="condition"></p>
+                              <img  class="image w-25 m-auto" >
+                              <h4 >wind speed</h4>
+                              <p class="wind bg-danger"></p>
+                              <h4 >Rain chance</h4>
+                              <p class="chanceRain bg-danger"></p>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+
+
+
+                  </div>
+
+
+                 
+
+        </div>
+
+        <div class="parent bg-dark">
+          <div class="container ">
+            <div class="row">
+              <div class="col-9">
+                <input type="text" class="form-control bg-dark mt-4 subscribe" placeholder="enter your email to subscribe">
+              </div>
+              <div class="col-3 mt-4 d-flex">
+                
+                  <div class="shadow ">
+                    <i class="fa-brands fa-facebook social"></i>
+                  </div>
+              
+                  <div class="shadow">
+                  <i class="fa-brands fa-twitter social "></i>
+                </div>
+  
+                <div class="shadow">
+                  <i class="fa-brands fa-google social"></i>
+                </div>
+              
+              
+              
+                  
+              
+              </div>
+            </div>
+            
+            <button class="btn btn-primary mt-2  ">Subscribe</button>
+
+            
+          
+          </div>
+        </div>
+
+        <div class="parga text-center bg-dark">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </div>
+        
+
+  
+
+<script src="demo.js"></script>
+ </body>
+</html>
