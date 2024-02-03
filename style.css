@@ -1,3 +1,11 @@
+:root {
+    --bg-color: red;
+}
+
+
+body {
+    background-color: var(--bg-color);
+}
 .site{
     background-color: #1e202b;
     height: 95vh;
@@ -27,6 +35,8 @@
      height: 35px; 
      margin-right: 40px;
      margin-top: 20px;
+     background-color: var(--bg-color);
+
 }
 .subscribe{
     border-radius: 30px;
